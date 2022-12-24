@@ -1,10 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class FibonacciSeries {
-    public static void main(String[] args) {
-        printFibonacci(10);
-    }
-    public static void printFibonacci(int lastFibonacci) {
+    public void printFibonacci(int lastFibonacci) {
         int prev = 0;
         int next = 1;
         int tmp;
