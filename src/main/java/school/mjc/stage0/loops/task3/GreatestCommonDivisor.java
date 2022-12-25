@@ -14,7 +14,9 @@ public class GreatestCommonDivisor {
                 gcd = i;
             }
         }
-        if((first == 0) || (second == 0)) {
+        if(first == 0) {
+            System.out.println(second);
+        } else if (second == 0) {
             System.out.println(first);
         } else {
             System.out.println(gcd);

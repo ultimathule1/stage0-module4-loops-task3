@@ -8,7 +8,7 @@ public class RangeSum {
             secondBoarder = firstBoarder;
             firstBoarder = tmp;
         }
-        for(int i = firstBoarder + 1; i <= secondBoarder; i++) {
+        for(int i = firstBoarder; i <= secondBoarder; i++) {
             sum += i;
         }
         System.out.println(sum);
