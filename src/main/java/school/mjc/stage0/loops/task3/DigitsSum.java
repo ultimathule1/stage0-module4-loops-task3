@@ -8,6 +8,7 @@ public class DigitsSum {
             sum += (t % 10);
             t /= 10;
         }
+        if (sum < 0) sum *= -1;
         System.out.println(sum);
     }
 }
